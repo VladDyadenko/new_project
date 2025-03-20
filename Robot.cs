@@ -27,22 +27,22 @@ class Robot
 
     public Robot(string _name, short _weigth, byte[] _coordinates)
     {
-        setValues(_name, _weigth, _coordinates);
-        printValues();
+        this.setValues(_name, _weigth, _coordinates);
+        this.printValues();
         count++;
 
     }
 
-    public void setValues(string _name, short _weigth, byte[] _coordinates)
+    public void setValues(string name, short weigth, byte[] coordinates)
     {
-        name = _name;
-        weigth = _weigth;
-        coordinates = _coordinates;
+        this.name = name;
+        this.weigth = weigth;
+        this.coordinates = coordinates;
     }
     public void printValues()
     {
-        Console.WriteLine(name + ", weigth: " + weigth + ", coordinates: ");
-        foreach (byte el in coordinates)
+        Console.WriteLine(this.name + ", weigth: " + this.weigth + ", coordinates: ");
+        foreach (byte el in this.coordinates)
 
             Console.Write(el + " - ");
         Console.WriteLine("");
@@ -51,6 +51,8 @@ class Robot
 
     public static void Print()
     {
+        // в статичних методах this не може бути використано, бо ці методи 
+        // відносяться до всього класу
         Console.WriteLine("Count: " + count);
     }
 
