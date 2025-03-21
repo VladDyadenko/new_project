@@ -8,6 +8,26 @@ class Robot
     private short weigth;
     private byte[] coordinates;
 
+    // акцесори
+    // неявно прописуємо методи
+    // якщо всановити приватність, то акцесор неможна буде використати за межами класу
+    public int Widgth { get; set; }
+    // явно вказуємо і можемо щось тут робити
+    public short Weigth
+    {
+        get
+        {
+            Console.WriteLine("Result: ");
+            return this.weigth;
+        }
+        set
+        {
+            if (value < 1) weigth = 0;
+            else
+                this.weigth = value;
+        }
+    }
+
     // static належить до всього класу, воно визивається через Robot.count
     //звернутися через bot.count ore killer.count, тобто через екземпляр, не можливо
     public static int count = 0;

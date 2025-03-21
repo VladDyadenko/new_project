@@ -6,15 +6,16 @@ namespace project
     {
         static void Main()
         { // ООП
+            Robot bot = new Robot();
 
-            Robot bot = new Robot("Bot", 3, new byte[] { 0, 0, 0 });
+            // тепер можемо записувати щось та отримувати дані
+            bot.Weigth = -5;
+            Console.Write(bot.Weigth);
 
-            Robot killer = new Robot("Killer", 5, new byte[] { 0, 1, 0 });
+            bot.Widgth = 10;
+            Console.Write(bot.Widgth);
 
-            Robot robot = new Robot();
-            Robot robot_alex = new Robot("Alex");
 
-            Robot.Print();
         }
 
 

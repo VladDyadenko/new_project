@@ -12,3 +12,4 @@ C:\Users\pc\Documents\GitHub\my_project_C#\obj\MCD\Debug\net9.0\refint\my_projec
 C:\Users\pc\Documents\GitHub\my_project_C#\obj\MCD\Debug\net9.0\my_project_C#.pdb
 C:\Users\pc\Documents\GitHub\my_project_C#\obj\MCD\Debug\net9.0\my_project_C#.genruntimeconfig.cache
 C:\Users\pc\Documents\GitHub\my_project_C#\obj\MCD\Debug\net9.0\ref\my_project_C#.dll
+C:\Users\pc\Documents\GitHub\my_project_C#\obj\MCD\Debug\net9.0\my_project_C#.sourcelink.json
