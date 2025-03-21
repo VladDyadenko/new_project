@@ -21,6 +21,15 @@ class Killer : Robot
         get; private set;
     }
 
+
+    /* Щоб додати функціонал в спадкоємці, викликаємо метод через ключеве слово override*/
+    /* Якщо прибрати тут base.printValues() - то те що було в методі, не буде виконуватися */
+    public override void printValues()
+    {
+        base.printValues();
+        Console.WriteLine("Damage: " + Damage);
+    }
+
     public void Lazer()
     {
         Console.Write("Laser is shooting");

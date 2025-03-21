@@ -58,7 +58,7 @@ class Robot
     public Robot(string _name, short _weigth, byte[] _coordinates)
     {
         this.setValues(_name, _weigth, _coordinates);
-        this.printValues();
+        // this.printValues();
         count++;
 
     }
@@ -69,7 +69,9 @@ class Robot
         this.weigth = weigth;
         this.coordinates = coordinates;
     }
-    public void printValues()
+
+    // ключове слово virtual дозволяє додавати функціонал в спадкоємцях
+    public virtual void printValues()
     {
         Console.WriteLine(this.name + ", weigth: " + this.weigth + ", coordinates: ");
         foreach (byte el in this.coordinates)
