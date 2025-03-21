@@ -35,4 +35,9 @@ class Killer : Robot
         Console.Write("Laser is shooting");
     }
 
+    public override void Moving(float speed)
+    {
+        Console.WriteLine("Killer is Jumping: " + speed);
+    }
+
 }

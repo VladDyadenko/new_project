@@ -2,7 +2,7 @@ using System;
 
 namespace project;
 
-class Robot
+abstract class Robot
 {
     //protected дає можливість використовувати поля та методи тільки в головному та спадкоємцях
     protected string name;
@@ -62,6 +62,11 @@ class Robot
         count++;
 
     }
+
+    /* Створюємо абстрактний метод. Він потрібен, якщо ми розуміємо, що щось треба буде робити
+    в спадкоємцях, але точно не знаєте як. Тоді прописуємо цей метод і у всіх спадкоємцях
+    буде світитись помилк-нагадування, що його потрібно прописати в них */
+    public abstract void Moving(float speed);
 
     public void setValues(string name, short weigth, byte[] coordinates)
     {

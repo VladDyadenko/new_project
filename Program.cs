@@ -7,12 +7,12 @@ namespace project
     {
         static void Main()
         { // ООП
-            /*Поліформізм - це принцип ООП, по якому ми можемо в головному класі створити метод
-            а в спадкоємці змінити його, або щось дописати і отримати його, якщо він 
-            викликається через цього спадкоємця */
+            Bot bot = new("Bob", 10, new byte[] { 0, 1, 0 });
+
+            bot.Moving(20f);
 
             Killer killer = new("Killer", 5, new byte[] { 0, 0, 0 }, 10);
-            killer.printValues();
+            killer.Moving(30f);
 
 
         }
