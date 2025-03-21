@@ -4,9 +4,19 @@ namespace project;
 
 class Robot
 {
-    private string name;
-    private short weigth;
-    private byte[] coordinates;
+    //protected дає можливість використовувати поля та методи тільки в головному та спадкоємцях
+    protected string name;
+    protected short weigth;
+    protected byte[] coordinates;
+
+    public string Name
+    {
+        get
+        {
+            return name;
+        }
+        private set { }
+    }
 
     // акцесори
     // неявно прописуємо методи
