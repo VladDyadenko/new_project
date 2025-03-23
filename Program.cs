@@ -6,7 +6,11 @@ namespace project
     class Program
     {
         static void Main()
-        { // ООП
+        { // Структури даних
+            Book kobzar = new();
+            kobzar.setvalues("Kobzar", "Shevchenko");
+            kobzar.print();
+
 
 
         }
