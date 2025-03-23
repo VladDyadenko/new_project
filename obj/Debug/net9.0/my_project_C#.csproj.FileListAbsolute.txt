@@ -1,0 +1,15 @@
+c:\Users\pc\Documents\GitHub\my_project_C#\bin\Debug\net9.0\my_project_C#.exe
+C:\Users\pc\Documents\GitHub\my_project_C#\bin\Debug\net9.0\my_project_C#.deps.json
+C:\Users\pc\Documents\GitHub\my_project_C#\bin\Debug\net9.0\my_project_C#.runtimeconfig.json
+c:\Users\pc\Documents\GitHub\my_project_C#\bin\Debug\net9.0\my_project_C#.dll
+c:\Users\pc\Documents\GitHub\my_project_C#\bin\Debug\net9.0\my_project_C#.pdb
+c:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\my_project_C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\my_project_C#.AssemblyInfoInputs.cache
+c:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\my_project_C#.AssemblyInfo.cs
+c:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\my_project_C#.csproj.CoreCompileInputs.cache
+c:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\my_project_C#.sourcelink.json
+c:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\my_project_C#.dll
+c:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\refint\my_project_C#.dll
+c:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\my_project_C#.pdb
+C:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\my_project_C#.genruntimeconfig.cache
+C:\Users\pc\Documents\GitHub\my_project_C#\obj\Debug\net9.0\ref\my_project_C#.dll

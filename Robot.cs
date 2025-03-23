@@ -2,6 +2,8 @@ using System;
 
 namespace project;
 
+/*Якщо додаємо abstract, тепер на основі цтого класу ми не створимо новий обєкт
+ але ми тут можемо писати всі необхідні поля та методи для спадкоємців*/
 abstract class Robot
 {
     //protected дає можливість використовувати поля та методи тільки в головному та спадкоємцях
@@ -73,6 +75,11 @@ abstract class Robot
         this.name = name;
         this.weigth = weigth;
         this.coordinates = coordinates;
+    }
+    public void setValues(string name)
+    {
+        this.name = name;
+
     }
 
     // ключове слово virtual дозволяє додавати функціонал в спадкоємцях

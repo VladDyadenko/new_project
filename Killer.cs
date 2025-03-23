@@ -3,7 +3,7 @@ using System;
 namespace project;
 
 // наслідування за використанням :
-class Killer : Robot
+class Killer : Robot, IFly
 {
     public Killer() { }
 
@@ -39,5 +39,7 @@ class Killer : Robot
     {
         Console.WriteLine("Killer is Jumping: " + speed);
     }
+
+    public void RobotFly(int maxHeigth) { }
 
 }

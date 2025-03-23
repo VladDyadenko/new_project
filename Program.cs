@@ -7,17 +7,21 @@ namespace project
     {
         static void Main()
         { // ООП
-            Bot bot = new("Bob", 10, new byte[] { 0, 1, 0 });
 
-            bot.Moving(20f);
-
-            Killer killer = new("Killer", 5, new byte[] { 0, 0, 0 }, 10);
-            killer.Moving(30f);
-
+            Multiply(2, 3,5);
 
         }
 
-
+        public static void Multiply(int x, int y)
+        {
+            int res = x * y;
+            Console.WriteLine("Result: " + res);
+        }
+        public static void Multiply(int x, int y, int z)
+        {
+            int res = x * y * z;
+            Console.WriteLine("Result: " + res);
+        }
 
     }
 
