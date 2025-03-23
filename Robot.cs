@@ -11,6 +11,9 @@ abstract class Robot
     protected short weigth;
     protected byte[] coordinates;
 
+    public TypeRobot type;
+
+
     public string Name
     {
         get
@@ -57,9 +60,10 @@ abstract class Robot
         count++;
     }
 
-    public Robot(string _name, short _weigth, byte[] _coordinates)
+    public Robot(string _name, short _weigth, byte[] _coordinates, TypeRobot type)
     {
         this.setValues(_name, _weigth, _coordinates);
+        this.type = type;
         // this.printValues();
         count++;
 

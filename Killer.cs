@@ -11,7 +11,8 @@ class Killer : Robot, IFly
     // коли ми створюємо новий клас на основі існуючого, можемо додати йому потрібні нові поля (типу Damage)
     // а інши поля, якщо вони потрібні вибрати з головного класу. В нашому випадку там було три конструктора
     // ми вибрали з потрібними полями з Robot і через : base () - додали в наш новий клас.
-    public Killer(string name, short weigth, byte[] coordinates, int damage) : base(name, weigth, coordinates)
+    public Killer(string name, short weigth, byte[] coordinates, int damage, TypeRobot type)
+    : base(name, weigth, coordinates, type)
     {
         this.Damage = damage;
 
